@@ -1,24 +1,88 @@
 
-body{
+html,body{
   font-family: sans-serif;
-  background: #e5e5e5;
+  background:#f8f8f8;
   height: 100%;
+  color:#5c5c5c;
 }
 footer{
   background: white;
   position: relative;
   bottom: 0;
-  padding: 30px 10px;
-
+  padding: 40px 20px;
+  font-size:0.75em;
+}
+h1{
+  text-align: center;
+  padding:20px 0;
 }
 .wrapper{
   height: 100%;
 }
 .main-section{
-  width:600px;
-  margin: 0 auto;
-  padding: 10px 20px;
+  width:450px;
+  margin: 10px auto;
+  padding: 10px 25px;
   background: white;
-  border:1px solid #f5f5f5;
+  border:1px solid #e5e5e5;
   border-radius: 3px;
+}
+.input-field{
+  width:90%;
+  padding: 10px 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.lable{
+  padding: 10px 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color:#00BCE1;
+}
+a:hover{
+  color:#999;
+
+}
+.right-text{
+  float: right;
+  margin-right:  40px;
+}
+.button{
+  background: #00BCE1;
+  width:92%;
+  padding: 15px 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border:none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+.button:hover{
+  cursor: pointer;
+  background: #00a7c8;
+
+}
+.bordered{
+ background-color: white;
+ border: 1px solid  #00BCE1;
+ color:#00BCE1;
+}
+.bordered:hover{
+  cursor: pointer;
+  background: #CEEEFF;
+}
+.smaller-centered-text{
+  text-align: center;
+  font-size: 0.9em;
+}
+.col-1{
+  float:left;
+  text-align: center;
+  width: 33%;
 }
