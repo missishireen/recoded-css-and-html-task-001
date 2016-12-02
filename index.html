@@ -4,25 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Learn - Sign In</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header></header>
+<header>
+  <h1>Learn</h1>
+</header>
 <div class="wrapper">
   <form action="login.php" method="post">
     <section class="main-section">
-      <h3>New to Learn?</h3>
-      <p>Learn is one of the world's most sophisticated platforms for teaching and learning. Read more to get started.</p>
+      <h4>New to Learn?</h4>
+      <p>Learn is one of the world's most sophisticated platforms for teaching and learning. <a href="https://flatironschool.com/campuses/online/?__hstc=112149531.902ab6e17cc00c3bce59023c4733082c.1472493978895.1480619320196.1480622758314.252&__hssc=112149531.4.1480622758314&__hsfp=2433116763"  target="_blank"> Read more to get started</a>.</p>
     </section>
     <section class="main-section">
+     <h2>Sign into Learn</h2><br><br>
+     <label class="lable" for="txtEmail">Email Address</label><br>
+     <input type="email" class="input-field" id="txtEmail" placeholder="Enter email..."><br>
+     <label class="lable" for="txtPassword">Password</label>
+     <a href="https://learn.co/users/password/reset" class="right-text" target="_blank">Forget password?
+     </a><br>
+     <input type="password" class="input-field" id="txtPassword" placeholder="Enter password..."><br>
+     <input type="submit" class="button" value="SIGN IN">
+     <br>
+     <br>
+     <p class="smaller-centered-text">
+     Already have an account through Github?
+     </p>
+     <button  class="button bordered" >SIGN IN WITH GITHUB</button>
+
     </section>
-    
+
   </form>
 
 </div>
 <footer>
-
+<section class="col-1">
+  //Learn.Love.Code
+</section>
+<section class="col-1">
+  Terms & Conditions
+</section>
+<section class="col-1">
+  	MADE WITH LOVE BY <b>FLATIRON SCHOOL</b>
+</section>
 </footer>
 </body>
 </html>
